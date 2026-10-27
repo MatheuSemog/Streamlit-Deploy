@@ -105,7 +105,7 @@ try:
             fig_line = px.line(
                 df_historico,
                 x="Ano",
-                y="Toal",
+                y="Total",
                 color="Localidade",
                 markers=True,
                 title="Evolução Temporal do Total de Horas Dedicadas",
