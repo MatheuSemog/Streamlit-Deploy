@@ -106,7 +106,7 @@ try:
                 df_historico,
                 x="Ano",
                 y="Toal",
-                colors="Localidade",
+                color="Localidade",
                 markers=True,
                 title="Evolução Temporal do Total de Horas Dedicadas",
                 labels={"Total": "Horas/Semana", "Ano" : "Ano"}
